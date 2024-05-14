@@ -1,0 +1,6 @@
+# computerVision
+The problem to be addressed in this project is that of Vehicle Trajectory Forecasting aimed at improving road safety and traffic management. It focuses on predicting vehicle trajectories in a road intersection context. Starting from the analysis of video sequences acquired through cameras positioned at the intersection, convolutional neural networks (CNNs) will be adopted for extracting vehicle features from the frames. This feature extraction phase is crucial as it allows capturing significant details such as the shape, size, and movement of the vehicles.
+
+Subsequently, the project will proceed with identifying the past trajectories of vehicles by applying algorithms for spatiotemporal pattern recognition. This phase involves analyzing the positions and movements of vehicles in previous frames, enabling the tracking of their historical trajectories in the context of the road intersection.
+
+The crucial phase of the project involves the use of recurrent neural networks, specifically Long Short-Term Memory (LSTM) networks, for predicting future vehicle trajectories. LSTMs are particularly suitable for modeling complex temporal sequences and capturing long-term relationships among data, making them ideal for predicting vehicle movement in the road intersection.
